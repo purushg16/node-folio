@@ -42,7 +42,7 @@ app.use(session(sess));
 
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 
-const mongoPassword = "ZpKKfFH-mP.@2DU";
+const mongoPassword = "OR8Is8q6NW3MFcgO";
 
 mongoose.connect(`mongodb+srv://purush:${mongoPassword}@personalpurush.zmiac.mongodb.net/Folio`, {
   useNewUrlParser: true,
