@@ -100,5 +100,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port, function () {
-  console.log(`Started building at ${port}`);
+  console.log(`Started building at ${process.env.PORT || port}`);
 });
